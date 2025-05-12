@@ -4,7 +4,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@font-face {
+/* @font-face {
   font-family: "pnc_tit";
   src: url(/fonts/GreatVibes-Regular.ttf);
 }
@@ -12,16 +12,17 @@
 @font-face {
   font-family: "sec_text";
   src: url(/fonts/Montserrat-Regular.ttf);
-}
+} */
 
 body {
-  font-family: "sec_text";
+ font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
   height: 100vh;
-  background-image: linear-gradient(#ffc6d8ce, #ffc6d8be),
-    url(/img/ChatGPT\ Image\ 17\ abr\ 2025\,\ 12_45_08\ a.m..png);
+ background-image: linear-gradient(#83a381b9, #83a381b9),
+    url(/img/fondo_1.png);
+   
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -44,16 +45,16 @@ header .menu {
 .menu ul li {
   font-size: 1rem;
   background: #ffffff87;
-  color: #570024;
+  color: #121c13;
   padding: 0.4rem 1rem;
   border-radius: 3rem;
 }
 
 header .menu h1 {
   font-size: clamp(3.2rem, 1.4vw, 4rem);
-  color: #f10061;
-  font-family: "pnc_tit";
-  font-weight: 1000;
+  color: #ffffff;
+ 
+  /* font-weight: 1000; */
 }
 
 header nav ul {
@@ -74,12 +75,12 @@ header nav ul {
 
 .sub_abajo h2 {
   font-size: clamp(2.1rem, 4vw, 6rem);
-  color: #570024;
+  color: #ffffff;
 }
 
 .sub_1 p {
   font-size: clamp(1rem, 1.5vw, 2rem);
-  color: #570024d8;
+  color: #ffffffd8;
 }
 
 .sub_1 {
@@ -102,8 +103,8 @@ header nav ul {
   font-size: clamp(1.1rem, 1.3vw, 4rem);
   border-radius: 0.7rem;
   border-color: #57002400;
-  background: #d70056;
-  color: #fff;
+  background: #ffffff;
+  color: #121c13;
 }
 .sub_1 button .but2 {
   background: #ffeff3;
@@ -137,7 +138,7 @@ header nav ul {
 }
 .conocenos h3 {
   font-size: 3.5rem;
-  color: #f10061;
+  color: #83a381;
 }
 
 .conocenos img {
@@ -154,11 +155,11 @@ header nav ul {
 
 .con_2 p {
   font-size: 1.1rem;
-  color: #570024;
+  color: #121c13;
 }
 
 .con_2 span {
-  color: #f100606e;
+  color: #83a381;
   font-size: 1.3rem;
   font-weight: 800;
 }
@@ -167,20 +168,19 @@ header nav ul {
 ------------Menu----------- */
 
 .menuu {
-  background-image: linear-gradient(#ffc6d8ce, #ffc6d8be),
-    url(/img/ChatGPT\ Image\ 17\ abr\ 2025\,\ 12_45_08\ a.m..png);
-
-  padding: 5rem 0rem;
+background-image: linear-gradient(#83a381b9, #83a381b9),
+    url(/img/fondo_1.png);
+  padding: 10rem 0rem;
 }
 
 .menuu h3 {
-  font-size: clamp(1.8rem, 3vw, 3rem);
+  font-size: clamp(2rem, 4vw, 3rem);
   padding: 1rem;
-  background: #570024;
-  color: #fff;
+  font-weight: 900;
+
+  color: #ffffff;
   text-align: center;
-  width: 19rem;
-  border-radius: 0.8rem;
+ 
   margin: 1rem auto;
 }
 
@@ -188,158 +188,44 @@ header nav ul {
   margin: 3rem auto 3rem;
   width: 70%;
   text-align: center;
-  color: #570024;
+  color: #ffffff;
 }
 
-.menu_hits {
-  display: flex;
-  gap: 3rem;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.minis {
-  display: flex;
-  margin: 1rem;
-  gap: 1rem;
-  align-items: center;
-  width: 27rem;
-  background: #ffffff7c;
-  border-radius: 2rem;
-  padding: 1rem;
-  position: relative;
-  color: #570024;
-}
-
-.mis_1 {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.mis_1 p {
-  width: 80%;
-  font-size: clamp(1rem, 1.4vw, 2rem);
-}
-
-.mis_1 h4 {
-  color: #fff;
-  text-align: center;
-  font-size: clamp(1.7rem, 2.3vw, 3rem);
-  border-radius: 0.5rem;
-}
-.fond_1 {
-  background-image: url(/img/image.webp);
-  width: 24rem;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 5rem;
-}
-
-.minis img {
-  width: 7rem;
-  position: absolute;
-  right: 1rem;
-  top: -4rem;
-  transform: rotateZ(-15deg);
-}
-
-.tot_tama {
-  display: flex;
-  flex-direction: column;
-  gap: 0.6rem;
-
-  .tama .ede {
-    background: #fff;
-    width: 7.5rem;
-    height: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border-radius: 1rem;
-    font-size: 1rem;
-  }
-  .tama {
-    display: flex;
-    gap: 2rem;
-  }
-}
-
-.mis_1 .tama p {
-  width: 100%;
-  font-size: clamp(.9rem,1vw,2rem);
-}
-.tama span {
-  font-size: clamp(1rem,1.5vw,2rem);
-  font-weight: 550;
-  color: #570024;
-}
-
-.tot_tama h5 {
-  color: #570024;
-  font-weight: 600;
-  font-size: clamp(1.3rem, 1.5vw, 3rem);
-}
 
 /* -------------topiings----------- */
-.topings_glob {
-  margin: 7rem 0rem 0rem;
-}
-.topings_glob h4 {
-  text-align: center;
-  font-size: clamp(2rem, 2.5vw, 3rem);
-  font-weight: 600;
-  color: #d70056;
-  background: #ffffff8f;
-  padding: 1rem;
-  width: 20rem;
-  border-radius: 0.5rem;
-  margin: 3rem auto;
-}
 
-.toppings {
+/* .list{} */
+
+.sub_menu{
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  gap: 10rem;
+  gap: 3rem;
 }
 
-.toppings h5 {
-  font-size: clamp(2rem, 1.8vw, 3rem);
-  margin: 1rem 0rem;
-  background: #570024;
-  color: #fff;
-  padding: 0.3rem 1rem;
-  text-align: center;
-  border-radius: 0.5rem;
-}
-
-.toppings ul li {
-  font-size: 1.1rem;
-  margin: 0.4rem 0rem;
-}
-
-.topl_one {
+.list{
   display: flex;
-  gap: 2rem;
+  justify-content: center;
+ background: #c6d6c4;
+ width: 19rem;
+ border-radius: 1rem;
+ padding: 1rem;
 }
 
-.lat {
-  background: #ffffff;
-  width: 0.4rem;
-  height: 30vw;
-  border-radius: 0.5rem;
+.list span{
+  color: #83a381;
+  font-size: 1.6rem;
+  font-weight: 700;
 }
-.topps_2 {
-  background: rgba(255, 255, 255, 0.486);
-  padding: 2rem;
-  border-radius: 2rem;
+.list ul{
+  list-style: none;
+  margin: .5rem;
+}
+.list ul  li{
+  margin: .3rem 0rem;
+  color:#283d28;
+  font-weight: 550;
 }
 
 /* ------------Locacion----------------- */
@@ -354,8 +240,8 @@ header nav ul {
   padding: 2rem;
   width: 90%;
   border-radius: 1rem;
-  background-image: linear-gradient(#ffc6d8ce, #ffc6d8be),
-    url(/img/ChatGPT\ Image\ 17\ abr\ 2025\,\ 12_45_08\ a.m..png);
+background-image: linear-gradient(#83a381b9, #83a381b9),
+    url(/img/fondo_1.png);
 
   background-position: center;
   background-size: cover;
@@ -365,6 +251,7 @@ header nav ul {
 .Contacto p {
   margin: 1rem 0rem;
   font-size: 1.2rem;
+  color: #fff;
 }
 
 .Contacto .redess {
@@ -377,7 +264,7 @@ header nav ul {
 
 .Contacto a {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
   font-weight: 500;
 }
 
@@ -388,7 +275,7 @@ header nav ul {
 
 .cont_1 h5 {
   font-size: 2.8rem;
-  color: #f10061;
+  color: #ffffff;
 }
 
 .cont_2 {
@@ -413,17 +300,17 @@ header nav ul {
 }
 
 footer {
-  background-image: linear-gradient(#ffc6d8ce, #ffc6d8be),
-    url(/img/ChatGPT\ Image\ 17\ abr\ 2025\,\ 12_45_08\ a.m..png);
+  background-image: linear-gradient(#83a381b9, #83a381b9),
+    url(/img/fondo_1.png);
 
-  color: #570024;
+  color: #ffffff;
 }
 
 footer h3 {
   padding: 1rem;
   margin: auto;
   text-align: center;
-  color: #f10061;
+  color: #ffffff;
   font-size: clamp(2rem, 2vw, 3rem);
 }
 
